@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/forum.css" />
+		<script type="text/javascript" src="js/forum2.js"></script>
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="divtop">
+			<div>
+				<a href="">设为首页</a>
+				<a href="">收藏本站</a>
+			</div>
+		</div>
+		<!--顶部-->
+		<!--主体框架-->
+		<div class="divbody" id="divbody">
+			<!--注册登录-->
+			<div class="divhead">
+
+				<div class="divlogo">
+					<a href="#">
+						<img src="img/logo.png" />
+					</a>
+				</div>
+				<div class="divwx">
+					<a href="">
+						<img src="img/wechat_login.png" />
+					</a>
+					<p>扫一扫，访问微社区</p>
+				</div>
+				<div class="divqq">
+					<a href="">
+						<img src="img/qq_login.gif" />
+					</a>
+					<p>只需一步，快速开始</p>
+				</div>
+				<div class="divlgn">
+					<table>
+						<tr>
+							<td>
+								<select style="border: 0;margin-left: -10px;">
+									<option value="user" selected>用户名</option>
+									<option value="Email">Email</option>
+								</select>
+							</td>
+							<td>
+								<input type="text" class="txt" />
+							</td>
+							<td>
+								<label><input type="checkbox" name="" id="" value="" style="vertical-align: -3px;" />自动登录</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="pwd" style="margin-left: -5px;">密码</label></td>
+							<td><input type="password" class="txt" id="pwd" /></td>
+							<td><button class="btn">
+									<em>登录</em>
+								</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="divfindpwd">
+					<p><a href="">找回密码</a></p>
+					<p><a href="member1.html">立即注册</a></p>
+					<!-- <p ><a href="" onclick="b()" >立即注册</a></p> -->
+				</div>
+			</div>
+			<!--注册登录-->
+			<nav id="nav1">
+				<ul>
+					<li>
+						<div style="width: 86px;">
+							<a href="">论坛首页</a>
+						</div>
+					</li>
+
+					<li class="li">
+						<div style="width: 86px;">
+							<a href="">文档资料</a>
+						</div>
+						<ul class="ul">
+							<li>
+								<a href="">教程</a>
+							</li>
+							<li style="border-bottom:none;">
+								<a href="">开发文档</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<div style="width: 100px;">
+							<a href="">腾讯云主机</a>
+						</div>
+					</li>
+					<li>
+						<div style="width: 127px;">
+							<a href="">Discuz!实验室</a>
+						</div>
+					</li>
+
+					<li>
+						<div style="width: 86px;">
+							<a href="">服务购买</a>
+						</div>
+					</li>
+					<li class="li1">
+						<div style="width: 86px;">
+							<a href="">应用中心</a>
+						</div>
+						<ul class="ul1">
+							<li>
+								<a href="">Discuz! 应用中心</a>
+							</li>
+							<li style="border-bottom:none;">
+								<a href="">Discuz! 开放平台</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="li2">
+						<div style="width: 72px;">
+							<a href="">微社区</a>
+						</div>
+						<ul class="ul2">
+							<li>
+								<a href="">Discuz! 打字通</a>
+							</li>
+							<li>
+								<a href="">标准版</a>
+							</li>
+							<li style="border-bottom:none;">
+								<a href="">本地化部署版(第三方)</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<div style="width: 86px;">
+							<a href="">在线体验</a>
+						</div>
+					</li>
+				</ul>
+
+				<div>快捷导航</div>
+			</nav>
+			<div class="divsar">
+				<table>
+					<tr>
+						<td class="divsar1">
+
+						</td>
+
+						<td class="divsar1">
+							<input type="text" name="" id="scar" value="" placeholder=" 请输入搜索内容" />
+						</td>
+
+						<td class="divsar1">
+							<!-- &nbsp &nbsp帖子 -->
+							<select id="scar_text" style="color: #999;width: 51px;">
+								<!-- 去掉select下拉箭头的样式 -->
+								<option value="post" selected>&nbsp 帖子</option>
+								<option value="user">&nbsp 用户</option> -->
+
+							</select>
+						</td>
+
+						<td>
+							<img src="img/btn.png" style="margin-left: 10px;">
+						</td>
+						<td>
+							<div id="divv1">
+								<strong style="font-weight: 700;margin-left: 6px;">热搜：</strong>
+								<a href="" style="color: #369;margin: 2px;height: 45px;">网页游戏</a>
+								<a href="" style="color: #369;margin: 2px;">婚纱</a>
+								<a href="" style="color: #369;margin: 2px;">推广</a>
+								<a href="" style="color: #369;margin: 2px;m">聊天室</a>
+								<a href="" style="color: #369;margin: 2px;">游戏</a>
+								<a href="" style="color: #369;margin: 2px;">婚纱摄影</a>
+								<a href="" style="color: #369;margin: 2px;">积分商城</a>
+								<a href="" style="color: #369;margin: 2px;">搬家</a>
+								<a href="" style="color: #369;margin: 2px;">同城交友</a>
+								<a href="" style="color: #369;margin: 2px;">客户端</a>
+								<a href="" style="color: #369;margin: 2px;">旅游</a>
+								<a href="" style="color: #369;margin: 2px;">招聘</a>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+			<div class="divPT">
+				<table>
+					<tr>
+						<td>
+							<a href=""></a>
+							<em class="navs"></em>
+							<a href="">论坛首页</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="divCH">
+				<p>今日:
+					<em style="color: #444;">0</em>
+					<span style="margin: 0 5px ;left: 0px;">|</span>
+					昨日:
+					<em style="color: #444;">0</em>
+					<span style="margin: 0 5px ;left: 0px;">|</span>
+					帖子:
+					<em style="color: #444;">16799031</em>
+					<span style="margin: 0 5px ;left: 0px;">|</span>
+					会员:
+					<em style="color: #444;">20190828</em>
+					<span style="margin: 0 5px ;left: 0px;">|</span>
+					欢迎新会员:
+					<em>
+						<a href="" style="color: #369;">jjborn</a>
+					</em>
+				</p>
+				<div class="divZH">
+					<a href="">最新回复</a>
+				</div>
+			</div>
+			
+			
+			
+			
+			<dl class="comsenz" id="dd">
+				<dt>
+					<a href="">Comsenz 公司动态</a>
+					<!-- <a href="javascript:void(0)" onclick="aa()"><img src="img/collapsed_no.gif" id="pic1" /></a> -->
+					<a href="javascript:aa()"><img src="img/collapsed_no.gif" id="pic1" /></a>
+				</dt>
+				<dd id="dd1" style="display: block;">
+					<div><img src="img/forum.gif" alt="" />
+						<div>
+							<p>
+								<a href="plugin1.html" style="color: red;font-weight: 900;">Discuz! 程序发布</a>
+							</p>
+							<p>
+								主题: 80, 帖数: 2651
+							</p>
+							<p>
+								<a href="" style="color: #369;">Comsenz 核心产品 Discuz! X2.5 ...</a> 2017-10-4 08:59 monkeye
+							</p>
+						</div>
+					</div>
+					
+				</dd>
+			</dl>
+
+			<dl class="discuz" id="dd2">
+				<dt>
+					<a href="">Discuz!交流与讨论</a>
+					<a href="javascript:bb()" ><img src="img/collapsed_no.gif" id="pic2"/></a>
+				</dt>
+				<dd id="dd3">
+					<div style="margin: 0;padding: 0px;">
+						<div><img src="img/forum.gif" alt="" />
+							<div>
+								<p>
+									<a href="plugin1.html" style="color: #444;font-weight: 900;">Discuz!-插件</a>
+								</p>
+								<p>
+									主题: 19万, 帖数: 261万
+								</p>
+								<p>
+									<a href="" style="color: #369;">Comsenz 核心产品 Discuz! X2.5 ...</a> 2017-10-4 08:59 monkeye
+								</p>
+							</div>
+						</div>
+						<div style=""><img src="img/forum_new.gif" alt="" />
+							<div>
+								<p>
+									<a href="plugin1.html" style="color: #444;font-weight: 900;">Discuz!-模板</a>
+								</p>
+								<p>
+									主题: 13万, 帖数: 272万
+								</p>
+								<p>
+									<a href="" style="color: #369;">Comsenz 核心产品 Discuz! X2.5 ...</a> 2017-10-4 08:59 monkeye
+								</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div><img src="img/forum.gif" alt="" />
+							<div>
+								<p>
+									<a href="plugin1.html" style="color: #444;font-weight: 900;">Discuz!-应用中心</a>
+								</p>
+								<p>
+									主题: 80, 帖数: 2651
+								</p>
+								<p>
+									<a href="" style="color: #369;">Comsenz 核心产品 Discuz! X2.5 ...</a> 2017-10-4 08:59 monkeye
+								</p>
+							</div>
+						</div>
+						<div><img src="img/forum_new.gif" alt="" />
+							<div>
+								<p>
+									<a href="plugin1.html" style="color: blue;font-weight: 900;">Discuz!-安装使用</a>
+								</p>
+								<p>
+									主题: 93万, 帖数: 722万
+								</p>
+								<p>
+									<a href="" style="color: #369;">Comsenz 核心产品 Discuz! X2.5 ...</a> 2017-10-4 08:59 monkeye
+								</p>
+							</div>
+						</div>
+					</div>
+					<div style="border-bottom: none;">
+						<div><img src="img/forum.gif" alt="" />
+							<div>
+								<p>
+									<a href="" style="color:red;font-weight:900">站长帮</a>
+								</p>
+								<p>
+									主题: 1996, 帖数: 7971
+								</p>
+								<p>
+									<a href="" style="color: #369;">Comsenz 核心产品 Discuz! X2.5 ...</a> 2017-10-4 08:59 monkeye
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</dd>
+			</dl>
+			
+			<div class="divkk">
+				<ul>
+					<li><img src="img/logo_88_31.gif">
+						<div class="divvv"><a href="" style="font-weight: 700;color: #444;">Discuz!产品</a>
+							<p style="color: #999;">Discuz! 官方网站 用户会员区</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/134127mbbumrrcgzdvrflm.gif">
+						<div class="divkkk"><a href="" style="font-weight: 700;color: #444;">虚拟主机</a>
+							<p style="color: #999;">Discuz! 专用主机服务</p>
+						</div>
+					</li>
+					<li style="border-bottom:none">
+						<p><a href="">腾讯云论坛</a></p>
+						<p><a href="">手机QQ浏览器</a></p>
+						<p><a href="">腾讯开放论坛</a></p>
+						<p><a href="">电脑管家论坛</a></p>
+						<p><a href="">云服务器</a></p>
+						<p><a href="">PHPChina</a></p>
+						<p><a href="">蓝色理想</a></p>
+						<p><a href="">电脑报论坛</a></p>
+						<p><a href="">ChinaUnix.</a></p>
+						<p><a href="">落伍者论坛</a></p>
+
+						<p><a href="">IT之家</a></p>
+						<p><a href="">好大夫</a></p>
+						<p><a href="">站长工具</a></p>
+						<p><a href="">中国网管联盟</a></p>
+						<p><a href="">中国站长</a></p>
+						<p><a href="">WEB开发网</a></p>
+						<p><a href="">站长中国</a></p>
+						<p><a href="">赢政天下</a></p>
+						<p><a href="">金色财经</a></p>
+						<p><a href="">中国站长之家</a></p>
+
+						<p><a href="">网页教学网</a></p>
+						<p><a href="">域名城</a></p>
+						<p><a href="">A5论坛</a></p>
+						<p><a href="">28推论坛</a></p>
+						<p><a href="">ShopNC店商城</a></p>
+						<p><a href="">游侠网</a></p>
+						<p><a href="">DNSPod</a></p>
+						<p><a href="">挖贝网</a></p>
+						<p><a href="">奇米网</a></p>
+						<p><a href="">小鸟云</a></p>
+
+						<p><a href="">cc视频</a></p>
+						<p><a href="">互动中国</a></p>
+						<p><a href="">军转网</a></p>
+						<p><a href="">游久论坛</a></p>
+						<p><a href="">恩基云采</a></p>
+						<p><a href="">盱眙网</a></p>
+						<p><a href="">智能电视网</a></p>
+						<p><a href="">A9VG电玩部落</a></p>
+						<p><a href="">0668论坛</a></p>
+						<p><a href="">盆景</a></p>
+
+						<p><a href="">手游论坛</a></p>
+						<p><a href="">玩家网</a></p>
+						<p><a href="">推一把</a></p>
+						<p><a href="">郑州论坛</a></p>
+						<p><a href="">新东方社区</a></p>
+						<p><a href="">安卓网</a></p>
+						<p><a href="">91手机娱乐门户</a></p>
+						<p><a href="">华声论坛</a></p>
+						<p><a href="">中秋礼品</a></p>
+						<p><a href="">站帮网</a></p>
+
+						<p><a href="">太仓论坛</a></p>
+						<p><a href="">爱换</a></p>
+						<p><a href="">泰安论坛</a></p>
+						<p><a href="">编织人生</a></p>
+						<p><a href="">糖护士</a></p>
+						<p><a href="">高效养殖网</a></p>
+						<p><a href="">章丘人论坛</a></p>
+						<p><a href="">滴答留学移民</a></p>
+						<p><a href="">微信企业号</a></p>
+						<p><a href="">上海滩</a></p>
+
+						<p><a href="">木蚂蚁安卓论坛</a></p>
+						<p><a href="">酷爱论坛</a></p>
+						<p><a href="">肥东论坛</a></p>
+						<p><a href="">选学网</a></p>
+						<p><a href="">PHP100</a></p>
+						<p><a href="">站长论坛</a></p>
+						<p><a href="">站长教程</a></p>
+						<p><a href="">好贷网</a></p>
+						<p><a href="">17173游戏论坛</a></p>
+						<p><a href="">星乐点网络</a></p>
+
+						<p><a href="">Discuz! Fans</a></p>
+						<p><a href="">ShopDZ</a></p>
+						<p><a href="">域名注册</a></p>
+						<p><a href="">学霸梦工厂</a></p>
+						<p><a href="">初中一对一</a></p>
+						<p><a href="">TST庭秘密</a></p>
+
+					</li>
+				</ul>
+			</div>
+			<div class="divZZZ">
+				<div>
+					<p>Powered by <strong><a href="" style="font-weight: 700;color: #444;">Discuz! </a>
+						</strong>
+						X3.3<br><span>&copy; 2001-2017
+							<a href="" style="font-size: 5px;line-height: 1.8;color: #444;">Comsenz Inc.</a></span>
+					</p>
+					<div>
+						<p><a href="">小黑屋</a><span style="margin: 0 5px;">|</span></p>
+						<p><a href="">手机版</a><span style="margin: 0 5px;">|</span></p>
+						<p><a href="">Archiver</a><span style="margin: 0 5px;">|</span></p>
+						<p><a href="" style="font-weight: 700;color: #444;">Comsenz&nbsp;</a></p>
+						<p><a href="">( 粤B2-20090059-165 )</a></p>
+						<p><a href="" style=""><img src="img/star.jpg" style="width: 89px;height: 21px;"></a></p>
+						<p>GMT+8, 2019-8-29 09:00</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="divwechat" id="divwechat">
+			<img src="img/dz3mark.png">
+		</div>
+		<!--主体框架-->
+	</body>
+</html>

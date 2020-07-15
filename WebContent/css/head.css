@@ -1,0 +1,98 @@
+body, input, button, select, textarea {
+    font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun';
+    color: #444;
+}
+body{
+	margin: 0px;
+}
+header{
+	min-width: 960px;
+	border-bottom: 1px solid #CDCDCD;
+	background: #F2F2F2;
+	height: 30px;
+	line-height: 28px;
+}
+header div{
+	margin: 0 auto;
+	width: 960px;
+	font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun';
+	color: #444;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.lpadding{
+	padding-left: 10px;
+}
+.rpadding{
+	padding-right: 10px;
+}
+.rbor{
+	border-right: 1px solid #E5EDF2;
+}
+a{
+	text-decoration: none;
+}
+.block{
+	width: 960px;
+	margin: 0 auto;
+}
+.blockhead{
+	font-size: 1em;
+	font-weight: bold;
+}
+#block2{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 7px;
+	margin-bottom: 4px;
+}
+#block2 table{
+	margin-top: 5px;
+	border: 0px;
+}
+#block3{
+	font-size: 0;
+	width: 960px;
+	margin: 0 auto;
+	background-image: url(../image/nv.png);
+	
+}
+#block3 a{
+	display: inline-block;
+	width: 100px;
+	height: 33px;
+	font-size: 14px;
+	font-weight: 800;
+	text-align: center;/* 左右居中 */
+	line-height: 33px;
+	text-decoration: none;
+	color: white;
+	
+}
+#block3 div select{
+	width: 100px;
+	height: 25px;
+	margin-top: 4px;
+	margin-right: 7px;
+}
+#block4{
+		width: 960px;
+	    overflow: hidden;
+	    height: 42px;
+	    line-height: 42px;
+	    border-top: 1px solid #FFF;
+	    border-bottom: 1px solid #E9EFF5;
+	    background: #E8EFF5;
+		margin: 0 auto;
+		padding: 0;
+		
+}

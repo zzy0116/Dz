@@ -1,0 +1,17 @@
+.bftable{
+	overflow: hidden; 
+	height: 16px; 
+	width:18px; 
+	background:url(../image/search.png) no-repeat 0 -7px;
+}
+.lhuitie{
+	border-right: 1px solid #CDCDCD;
+	width: 160px;
+	background: #E5EDF2;
+	
+	
+}
+.rhuitie{
+	
+	
+}

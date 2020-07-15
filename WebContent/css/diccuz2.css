@@ -1,0 +1,38 @@
+.block{
+	width: 960px;
+	margin: 0 auto;
+}
+.bftable{
+	overflow: hidden; 
+	height: 16px; 
+	width:18px; 
+	background:url(../image/search.png) no-repeat 0 -7px;
+}
+.block ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+}
+.yeshu{
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #C2D5E3;
+}
+.shuzi{
+	background-color: #999;
+	color: white;
+	padding: 0 5px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+.ipb{
+	border: 1px solid;
+	border-color: #848484 #E0E0E0 #E0E0E0 #848484;
+	background: #FFF
+}
+#foot{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+

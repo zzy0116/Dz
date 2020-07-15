@@ -1,0 +1,51 @@
+#cc{
+	width: 960px;
+	height: 690px;
+	border: 1px solid #CDCDCD;
+	margin: 0 auto;
+}
+.zy{
+	width: 160px;
+	height: 37px;
+	background: #E5EDF2;
+	
+	
+}
+.gg{
+	text-align: center;
+	padding-top: 5px !important;
+}
+.pc{
+	width: 798px;
+	height: 37px;
+	
+	padding-top: 10px !important;
+	padding-bottom: 5px !important;
+	vertical-align: top;
+}
+.ad{
+	width: 960px;
+	height: 4px;
+	
+	background:#E5EDF2;
+}
+.plc{
+	width: 160px;
+	height: 649px;
+	
+	
+	background: #E5EDF2;
+}
+.oo{
+	width: 122px;
+	height: 122px;
+	
+	border: 2px solid white;
+}
+.tt{
+	width: 800px;
+	height:649px;
+	
+	padding-left: 15px;
+	
+}

@@ -1,0 +1,48 @@
+#section{
+	width: 960px;
+	border: 1px solid #CDCDCD;
+	margin: 0 auto;
+}
+#section .hea{
+	width: 100%;
+	border-bottom: 1px solid #CDCDCD;
+	background: #F2F2F2;
+	height: 35px;	
+}
+#section .tie{
+	width: 940px;
+	margin: 0 auto;	
+	font-size: 14px;
+}
+#section .tie:hover{
+	background: #F2F2F2;
+	
+}
+#section .td{
+	border-bottom: 1px solid #C2D5E3;
+}
+#seb{
+	width: 960px;
+	height: 33px;
+	margin: 0 auto;
+	border: 1px solid rgb(194,213,227);
+	text-align: center;
+	text-decoration: none;
+	background: #fff;
+	line-height: 31px;
+}
+#mn{
+	width: 960px;
+	height: 66px;
+	border: 1px solid #CDCDCD;
+	margin: 0 auto;
+}
+#uu{
+	width: 960px;
+	height: 45px;
+	margin: 0 auto;
+	
+	line-height: 18px;
+	margin-top: 15px ;
+}
+

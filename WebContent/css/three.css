@@ -1,0 +1,120 @@
+body{
+				margin: 0;
+			}
+			body, input, button, select, textarea{
+				font: 12px/1.5 Tahoma,'Microsoft Yahei','Simsun';
+				    color: #444;
+			}
+			a {
+				color: #333;
+				text-decoration: none;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			#nav{
+				width:960px;
+				height: 33px;
+				margin: 0 auto;
+				
+				font-size: 0px;
+				background-color: #2B7ACD
+			}
+			 nav a{
+				font-size: 14px;
+				float: left;
+				display: inline-block;
+				padding: 0 15px;
+				width: 87px;
+				height: 33px;
+				color: white;
+				
+				font-weight:700;
+				text-decoration: none;
+				text-align:center;
+				line-height: 33px;
+				border: 1px solid #A9A9A9;
+				
+				}
+				#nr{
+					width:960px;
+					height: 80px;
+					margin: 0 auto;
+					font-size: 0px;
+			    }
+				#br{
+					width: 960px;
+					height: 44px;
+					margin: 0 auto;
+					background-color: #E8EFF5;
+					
+				}
+				
+				.dr{
+					width: 21px;
+					height: 44px;
+					float: left;
+					
+					background-image: url(../img/search.png);
+					background-position-x:0px;
+					background-position-y:-50px; 
+				}
+				.cr{
+					width: 404px;
+					height: 44px;
+				
+					float: left;
+					background-image: url(../img/search.png);
+					background-position-x:0px;
+					background-position-y:-93px;
+				}
+				.ar{
+					width: 61px;
+					height: 44px;
+					
+					float: left;
+					background-image: url(../img/search.png);
+					background-position-x:0px;
+					background-position-y:-193px;
+				}
+				.er{
+					width: 38px;
+					height: 44px;
+					
+					float: left;
+					background-image: url(../img/search.png);
+					background-position-x:8px;
+					background-position-y:-142px;
+				}
+				#a{
+					width: 960px;
+					height: 29px;
+					margin: 0 auto;
+					
+					
+					 
+				}
+				.z{
+					width: 16px;
+					height: 29px;
+					
+					float: left;
+					background-image: url(../img/search.png);
+					background-position-x:0px;
+					background-position-y:0px;
+					
+				}
+				.b{
+					width: 20px;
+					height: 29px;
+					float: left;
+				}
+					
+				}			
+				
+				.y{
+					width: 48px;
+					height: 29px;
+					
+					border: 1px solid black;
+					float: left;
